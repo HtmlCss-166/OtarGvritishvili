@@ -1,0 +1,80 @@
+body {
+    background-color: #FEF9E7;
+    }
+    .nav {
+        width: 1800px;
+        height: 100px;
+        display: flex;
+        margin-left: 50px;
+        margin-right: 50px;
+        }
+    .navlogo img{
+        width: 200px;
+        height: 100px;
+        padding-left: 80px;
+        padding-right: 80px;
+        margin-left: 12px;
+        }
+    .navpage {
+        font-size: 22px;
+        text-align: center;
+        padding-left: 120px;
+        padding-right: 120px;
+        padding-top: 30px;
+        text-decoration: none;
+        font-weight: bold;
+        color: rgb(0, 0, 0);
+        }
+    .contactpage{
+        background-color: #FCF3CF;
+        display: flex;
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-top: 100px;
+        font-size: 20px;
+        width: 1800px;
+        height: 600px;
+        border: solid 2px #FCF3CF;
+        border-radius: 100px 10px / 120px;
+
+    }
+    .leftsideinfo{
+        margin-left: 200px;
+        padding: 50px;
+    }
+    .inputinfo {
+        display: flex;
+        width: 100px;
+        height: 50px;
+    }
+    .inputinfo input {
+        font-size: 20px;
+        font-weight: bold;
+        padding: 20px;
+        margin-top: 20px;
+        margin-right: 20px;
+        border-radius: 20px;
+    }
+     .inputinfo2 input{
+        width: 900px;
+        height: 100px;
+        margin-top: 20px;
+        font-size: 20px;
+        padding-bottom: 60px;
+        padding-left: 20px;
+        border-radius: 10px;
+        }
+    .submitbutton .submit{
+        background-color: #F7DC6F;
+        width: 300px;
+        height: 80px;
+        font-size: 20px;
+        font-weight: bold;
+        margin-top: 20px;
+        border-radius: 50px;
+        cursor: pointer;
+    }
+    .rightsideinfo{
+        margin-left: 200px;
+        padding: 50px;
+    }
