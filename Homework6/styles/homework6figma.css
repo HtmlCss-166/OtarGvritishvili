@@ -1,0 +1,145 @@
+@font-face {
+    font-family: 'Roboto';
+    src:url(../fonts/Roboto-Light.ttf)
+}
+body{
+    background-color: #E5E5E5;
+}
+.page {
+    width: 960px;
+    height: 900px;
+    background:  #FFFFFF;
+    position: absolute;
+}
+.headerimg {
+    width: 960px;
+    height: 90px;
+    margin-top: 0px;
+}
+.nav {
+    width: 960px;
+    height: 30px;
+    display: flex;
+    margin-top: 40px;
+}
+.nav h4{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400px;
+    font-size: 24px;
+    text-decoration: underline 5px;
+    color: #000000;
+    margin-top: 0px;
+}
+.nav1 {
+    width: 100px;
+    height: 30px;
+    margin-top: 0px;
+    margin-left: 155px;
+}
+.nav2 {
+    width: 192px;
+    height: 30px;
+    margin-top: 0px;
+    margin-left: 129px;
+}
+.nav3 {
+    width: 165px;
+    height: 30px;
+    margin-top: 0px;
+    margin-left: 94px;
+}
+.header {
+    position: absolute;
+    width: 340px;
+    height: 75px;
+    margin-left: 310px;
+    margin-top: 70px;
+}
+.header h1 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400px;
+    font-size: 64px;
+    margin-top: 0px;
+}
+.section {
+    display: flex;
+}
+.section1 {
+    display: flex;
+    width: 215px;
+    height: 150px;
+    margin-top: 200px;
+    margin-left: 120px;
+}
+.section2 {
+    display: flex;
+    width: 240px;
+    height: 150px;
+    margin-top: 200px;
+    margin-left: 75px;
+}
+.section3 {
+    display: flex;
+    width: 115px;
+    height: 150px;
+    margin-top: 200px;
+    margin-left: 75px;
+}
+.list1 img{
+    width: 10px;
+    height: 10px;
+    margin-bottom: 10px;
+}
+.list2 img{
+    width: 10px;
+    height: 10px;
+    margin-bottom: 10px;
+}
+.list3 img{
+    width: 10px;
+    height: 10px;
+    margin-bottom: 10px;
+}
+.article {
+    border: 1px solid #000000;
+    border-radius: 30px;
+    background: #FFFFFF;
+    width: 870px;
+    height: 225px;
+    margin-top: 75px;
+    margin-left: 60px;
+}
+.article p {
+    width: 845px;
+    height: 200px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 24px;
+    margin-left: 15px;
+    margin-top: 15px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.footer{
+    width: 960px;
+    height: 128px;
+    background-color: #000000;
+    margin-top: 55px;
+    display: block;
+}
+input {
+    width: 930px;
+    height: 40px;
+    margin-left: 15px;
+    margin-top: 15px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 24px;
+    color: #000000;
+    background: #FFFFFF;
+}
+.phone {
+    margin-top: 20px;
+}
