@@ -9,8 +9,8 @@ body{
     width: 1600px;
     height: 150px;
     background-color:#D4E6F1;
-    left: 168px;
-    right: 160px;
+    margin-left: 168px;
+    margin-right: 160px;
     top: 0px;
     display: flex;
     justify-content: space-around;
