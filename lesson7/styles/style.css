@@ -1,0 +1,44 @@
+/* .staticPosition{
+    position: static;
+} */
+
+.relativePosition{
+    background-color: aquamarine;
+    position: relative;
+    top: 30px;
+    left: 30px;
+}
+/* .relativePosition img{
+    position: relative;
+    top: 30px;
+    left: 30px;
+} */
+
+/* .fixedPosition{
+    position: fixed;
+    top:0;
+    left: 0;
+    background-color: aqua;
+    width: 500px;
+    left: 500px;
+} */
+
+/* .absolutePosition{
+    position:absolute;
+    top: 600px;
+    left: 80%;
+    background-color: aquamarine;
+    width: 150px;
+    height: 150px;
+} */
+
+.stickyPosition{
+position: sticky;
+top:10px;
+background-color: bisque;
+width: 100%;
+}
+
+
+
+
