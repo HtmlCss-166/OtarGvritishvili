@@ -39,8 +39,10 @@ body{
                     border-radius: 30px;
                     width: 160px;
                     height: 30px;
-                    text-align: center;
-                    transition: 0.8s;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    transition: 0.05s;
                 }
                     .navpage:hover{
                         background-image:linear-gradient(0deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
