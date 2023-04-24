@@ -1,0 +1,287 @@
+body{
+    background-color: #FF0000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+header {
+    width: 1600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    top: 0px;
+    background-color:#FF0000;
+}
+nav {
+    width: 1600px;
+    height: 200px;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    background-color:#FF0000;
+    margin-bottom: 30px;
+    border-bottom: solid 20px #000000;
+}
+.navlogo{
+    width: 400px;
+    height: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 110px 10px;
+    background-color: #000000;
+    transition: 1s;
+}
+.navlogo:hover{
+    border-radius: 10px;
+}
+.navlogo img {
+    width: 300px;
+    height: 150px;
+    border-radius: 110px 10px;
+    background-color: black;
+    transition: 1s;
+}
+.navlogo img:hover{
+    width: 400px;
+    height: 180px;
+}
+.navpage{
+    width: 170px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: #FFFFFF;
+    border: solid 3px #000000;
+    border-radius: 30px 100px;
+    background-color: #000000;
+    transition: 0.1s;
+}
+.navpage:hover{
+    background-color: #000000;
+    color: #FF0000;
+    scale: 1.1;
+    border-radius: 100px 30px;
+}
+main{
+    background-color: #FF0000;
+    width:1600px;
+    height: 700px;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    margin-bottom: 30px;
+    border-bottom: solid 20px #000000;
+}
+main .middleColaImg{
+    width: 1000px;
+    height: 600px;
+}
+.canAnimation{
+    width: 100px;
+    height: 100px;
+    /* position: relative; */
+    animation-name: canAnimation;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+.canAnimation2{
+    width: 100px;
+    height: 100px;
+    /* position: relative; */
+    animation-name: canAnimation2;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+@keyframes canAnimation{
+    0%{transform: translateX(0) translateY(0)}
+    5%{transform: translateX(60px) translateY(-40px)}
+    10%{transform: translateX(-60px) translateY(-80px)}
+    15%{transform: translateX(60px) translateY(-120px)}
+    20%{transform: translateX(-60px) translateY(-160px)}
+    25%{transform: translateX(60px) translateY(-200px)}
+    30%{transform: translateX(-60px) translateY(-160px)}
+    35%{transform: translateX(60px) translateY(-120px)}
+    40%{transform: translateX(-60px) translateY(-80px)}
+    45%{transform: translateX(60px) translateY(-40px)}
+    50%{transform: translateX(0) translateY(0)}
+    55%{transform: translateX(60px) translateY(40px)}
+    60%{transform: translateX(-60px) translateY(80px)}
+    65%{transform: translateX(60px) translateY(120px)}
+    70%{transform: translateX(-60px) translateY(160px)}
+    75%{transform: translateX(60px) translateY(200px)}
+    80%{transform: translateX(-60px) translateY(160px)}
+    85%{transform: translateX(60px) translateY(120px)}
+    90%{transform: translateX(-60px) translateY(80px)}
+    95%{transform: translateX(60px) translateY(40px)}
+    100%{transform: translateX(0) translateY(0)}
+}
+@keyframes canAnimation2{
+    0%{transform: translateX(0) translateY(0)}
+    5%{transform: translateX(-60px) translateY(-40px)}
+    10%{transform: translateX(60px) translateY(-80px)}
+    15%{transform: translateX(-60px) translateY(-120px)}
+    20%{transform: translateX(60px) translateY(-160px)}
+    25%{transform: translateX(-60px) translateY(-200px)}
+    30%{transform: translateX(60px) translateY(-160px)}
+    35%{transform: translateX(-60px) translateY(-120px)}
+    40%{transform: translateX(60px) translateY(-80px)}
+    45%{transform: translateX(-60px) translateY(-40px)}
+    50%{transform: translateX(0) translateY(0)}
+    55%{transform: translateX(-60px) translateY(40px)}
+    60%{transform: translateX(60px) translateY(80px)}
+    65%{transform: translateX(-60px) translateY(120px)}
+    70%{transform: translateX(60px) translateY(160px)}
+    75%{transform: translateX(-60px) translateY(200px)}
+    80%{transform: translateX(60px) translateY(160px)}
+    85%{transform: translateX(-60px) translateY(120px)}
+    90%{transform: translateX(60px) translateY(80px)}
+    95%{transform: translateX(-60px) translateY(40px)}
+    100%{transform: translateX(0) translateY(0)}
+}
+.boxLeft{
+    width: 200px;
+    height: 700px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    background-color: #000000;
+    border-radius: 30px;
+    margin-bottom: 30px;
+}
+.boxRight{
+    width: 200px;
+    height: 700px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    background-color: #000000;
+    border-radius: 30px;
+    margin-bottom: 30px;
+}
+.boxLeft img{
+    background-color: #FF0000;
+    border-radius:40px;
+    height: 120px;
+}
+.boxRight img{
+    background-color: #FF0000;
+    border-radius:40px;
+    height: 120px;
+}
+section{
+    width: 1600px;
+    height: 800px;
+}
+.sectionImg{
+    position: relative;
+}
+.sectionImg img{
+    width: 1600px; 
+    height: 800px;
+    border-radius: 20px;
+ }
+ .section-text{
+    position: absolute;
+    top:20px;
+    color: #FFFFFF;
+    padding: 25px;
+ }
+ .section-text h1{
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 40px;
+ }
+ .section-text p{
+    font-size: 18px;
+    text-transform:lowercase;
+    font-style: italic;
+    font-weight: bold;
+ }
+footer{
+    width: 1600px;
+    height: 350px;
+    display: block;
+    justify-content:center;
+    margin-top: 30px;
+    border-top: 20px solid #000000;
+    border-bottom: 20px solid #000000;
+}
+.topFooter{
+    width: 1600px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.leftBox{
+    width: 400px;
+    height: 260px;
+    padding: 20px;
+}
+.footerLogo img{
+    width: 400px;
+    height: 100px;
+    background-color: #000000;
+    border-radius: 20px;
+}
+.leftBox h3{
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 20px;
+}
+.socLogos{
+    width: 400px;
+    height: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.socLogos a img:hover{
+    scale: 1.3;
+}
+.rightBoxes{
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    padding-left: 20px;
+}
+.rightBoxes h3{
+    font-size: 22px;
+    margin-bottom: 20px;
+    
+}
+.rightBoxes a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+.footerPage{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 17px;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+}
+.bottomFooter{
+    width: 1600px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bottomFooter a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: bold;
+}
