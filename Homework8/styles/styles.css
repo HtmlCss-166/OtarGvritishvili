@@ -205,7 +205,11 @@ body{
             flex-direction: row;
             justify-content: end;
             align-items: center;
+
         }
+        /* .example{
+            position: fixed;
+        } */
             .conteiner3 p{
                 width: 150px;
                 height: 50px;
@@ -216,15 +220,15 @@ body{
                 font-size: 22px;
                 font-weight: bold;
                 font-style: italic;
-                position: relative;
                 animation-name: rightToLeft;
+                visibility: visible;
                 animation-iteration-count: infinite;
                 animation-duration: 16s;
             }
                 @keyframes rightToLeft{
-                    0%{right:0;}
-                    50%{right: 800px;}
-                    100%{right:0px;}
+                    /* 0%{transform: translateX(0);} */
+                    0%{transform: translateX(-800px);     opacity:1;}
+                    100%{transform: translateX(0);     opacity: 1;}
                 }
                 #p1{
                     background-color: #d14bc0;
