@@ -1,0 +1,31 @@
+:root{
+    --greenColor: aqua;
+    --redColor: black;
+    --globalFontSize:22px;
+}
+
+body{
+    background-color: var(--greenColor);
+}
+p{
+    color: var(--redColor);
+    font-size: var(--globalFontSize);
+}
+
+p::first-line{
+    color:red;
+}
+
+button{
+    color: var(--redColor);
+    font-size: var(--globalFontSize);
+}
+
+#paragraph1::before{
+ content: "this is the first paragraph ";
+ content: url(https://w7.pngwing.com/pngs/915/345/png-transparent-multicolored-balloons-illustration-balloon-balloon-free-balloons-easter-egg-desktop-wallpaper-party-thumbnail.png);
+}
+
+#paragraph1::after{
+    content: " this is the end paragraph.";
+   }
