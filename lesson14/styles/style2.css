@@ -1,0 +1,47 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+header {
+    max-width: 100%;
+    margin: auto;
+    background-color: bisque;
+    height: 460px;
+    color: black;
+    border-radius: 20px;
+}
+nav{
+    overflow: hidden;
+    background-color:burlywood;
+    position: relative;
+    /* display: flex;
+    flex-direction: column; */
+}
+nav #myLinks{
+    /* width: 100px; */
+    display: none;
+    /* display: flex;
+    flex-direction: column; */
+}
+nav a{
+    float: left;
+    color: cadetblue;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+nav a.icon{
+    float: right;
+    display: block;
+}
+nav a:hover{
+    background-color:aliceblue;
+    color: black;
+}
+.active {
+    background-color: greenyellow;
+    color: deeppink;
+}
+i {
+    cursor: pointer;
+}

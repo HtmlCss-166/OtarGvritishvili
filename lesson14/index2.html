@@ -1,0 +1,66 @@
+<html>
+    <head>
+        <title>
+
+        </title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="../lesson14/styles/style2.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <!-- <i class="fa-solid fa-bars"></i> -->
+        <header>
+            <nav>
+                <a href="#Home" class="active">
+                    Logo
+                </a>
+                <!-- <a class="icon" onclick="toggleMenuAction()">
+                    <i class="fa-solid fa-bars" aria-hidden="true"></i>
+                </a> -->
+                <div id="myLinks">
+                    <a href="#news">
+                        News
+                    </a>
+                    <a href="#contact">
+                        Contact
+                    </a>
+                    <a href="#about">
+                        About
+                    </a>
+                </div>
+                <a class="icon" onclick="toggleMenuAction()">
+                    <i class="fa-solid fa-bars" aria-hidden="true"></i>
+                </a>
+            </nav>
+            <div style="padding-left: 18px;">
+                <h3>
+                    Horizontal navigation bar example
+                </h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Culpa nisi amet possimus in necessitatibus voluptatum nam 
+                    mollitia. Pariatur, incidunt maxime adipisci nihil sint iusto,
+                    quis vitae impedit iste eaque soluta.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Culpa nisi amet possimus in necessitatibus voluptatum nam 
+                    mollitia. Pariatur, incidunt maxime adipisci nihil sint iusto,
+                    quis vitae impedit iste eaque soluta.
+                </p>
+            </div>
+        </header>
+        <script>
+            function toggleMenuAction() {
+                var x = document.getElementById("myLinks");
+                if(x.style.display === "block") {
+                    x.style.display = "none";
+                }
+                else {
+                    x.style.display = "block";
+                }
+            }
+        </script>
+    </body>
+</html>
