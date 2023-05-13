@@ -33,15 +33,11 @@ body {
         border-radius: 10px;
         width: 1680px;
         height: auto;
-        background-color: #145a32;
-        background-image: url(../imgsData/terms-policy-background-page-1.jpg);
-        background-blend-mode: multiply;
-        background-repeat: no-repeat;
-        background-size: cover;
         margin-bottom: 20px;
         display: flex;
         flex-direction: column;
         align-items: center;
+        background-color: #FEF9E7;
     }
         .menu-bar{
             width: 1680px;
@@ -235,25 +231,45 @@ body {
                         50% { transform: rotate(360deg);}
                         100% { transform: rotate(0deg);}
                     }
-        main {
-            display: grid;
-            grid-template-columns: auto;
-            grid-template-rows: auto;
-            grid-row-gap: 5px;
-            color: #F4D03F;
-            width: 1680px;
-            height: auto;
+    main {
+        width: 1680px;
+        height: 920px;
+        background-image: url(../imgsData/products-background-pages.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-size: 1750px;
+        border-radius: 10px;
+        margin-bottom: 20px;
+    }
+        .button{
+            width: 300px;
+            height: 100px;
+            font-family: 'bold';
+            font-size: 30px;
+            border: solid 10px #145A32;
+            border-radius: 20px 80px;
+            background-color: #F4D03F;
+            color: #145a32;
+            margin-top: 15px;
+            margin-left: 690px;
+
+            animation-name: color-animation;
+            animation-duration: 1s;
+            animation-iteration-count: infinite;
         }
-            main .header{
-                padding: 5px 20px;
-                background-color: #7D3C98;
-                border-radius: 20px;
+            .button:hover{
+                cursor: pointer;
             }
-            main .article{
-                padding: 5px 50px;
-                /* background-color: #7D3C98;
-                border-radius: 20px; */
+
+            @keyframes color-animation{
+                0%{background-color: #B7950B; color:#196F3D;}
+                40%{background-color: #F4D03F; color:#145A32; box-shadow: 2px 2px 3px #F4D03F, 0px 0px 25px greenyellow, 0px 0px 5px #F4D03F;}
+                50%{background-color: #F4D03F; color:#145A32; box-shadow: 2px 2px 3px #F4D03F, 0px 0px 25px greenyellow, 0px 0px 5px #F4D03F;}
+                60%{background-color: #F4D03F; color:#145A32; box-shadow: 2px 2px 3px #F4D03F, 0px 0px 25px greenyellow, 0px 0px 5px #F4D03F;}
+                100%{background-color: #B7950B; color:#196F3D;}
             }
+
     footer{
         border-radius: 10px;
         width: 1680px;
