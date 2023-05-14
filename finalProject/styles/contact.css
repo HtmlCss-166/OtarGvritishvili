@@ -265,6 +265,13 @@ body {
                     background-color: #D5DBDB;
                     color: #273746;
                     padding: 10px;
+                    background-color: #ffffff05;
+                    backdrop-filter: blur(10px);
+                    -webkit-backdrop-filter: blur(25px);
+                    border: solid 5px #F4D03F;
+                }
+                .send-info input::placeholder{
+                    color: #D5DBDB;
                 }
                     .send-info input:focus{
                         background-color:#ABB2B9;
@@ -281,6 +288,7 @@ body {
                     }
                     .send-info .letter::placeholder{
                         margin-bottom: 100px;
+                        color: #D5DBDB;
                     }
                     .send-info .submit{
                         border-radius: 30px;
@@ -299,11 +307,11 @@ body {
             .contact-info{
                 width: 600px;
                 height: 600px;
-                padding: 20px;
+                padding: 10px;
                 display: block;
             }
                 .contact-info-header{
-                    width: 700px;
+                    width: 600px;
                     height: 50px;
                     margin-bottom: 20px;
                     display: flex;
@@ -311,10 +319,16 @@ body {
                     padding-left: 10px;
                     font-family: 'bold';
                     font-size: 18px;
+
+                    background-color: #ffffff05;
+                    backdrop-filter: blur(10px);
+                    -webkit-backdrop-filter: blur(25px);
+                    border: solid 5px #F5B041;
+                    border-radius: 20px;
                 }
                 .conteiner{
                     display: grid;
-                    grid-template-columns: 340px 340px;
+                    grid-template-columns: 350px 250px;
                     grid-template-rows: repeat(6, 50px);
                     grid-row-gap: 20px;
                     grid-column-gap: 20px;
@@ -325,6 +339,12 @@ body {
                         align-items: center;
                         font-family: 'bold';
                         font-size: 17px;
+
+                        background-color: #ffffff05;
+                        backdrop-filter: blur(10px);
+                        -webkit-backdrop-filter: blur(25px);
+                        border: solid 5px #F5B041;
+                        border-radius: 20px;
                     }
                     .article-2{
                         padding-left: 10px;
@@ -332,9 +352,15 @@ body {
                         align-items: center;
                         font-family: 'bold';
                         font-size: 17px;
+
+                        background-color: #ffffff05;
+                        backdrop-filter: blur(10px);
+                        -webkit-backdrop-filter: blur(25px);
+                        border: solid 5px #F8C471;
+                        border-radius: 20px;
                     }
                     .article-1:last-child{
-                        width: 680px;
+                        width: 600px;
                         font-family: 'bold';
                         font-size: 20px;
                     }

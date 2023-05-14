@@ -319,6 +319,13 @@ body {
             cursor: pointer;
         }
 
+        .failedLogin{
+            margin-left: 15px;
+            font-family: 'bold';
+            font-size: 18px;
+            color: #FF0000;
+        }
+
         section{
             background-color: #f4d03f00;
             backdrop-filter: blur(10px);
@@ -345,8 +352,6 @@ body {
                 .section-info p a:hover{
                     text-decoration: underline;
                 }
-
-
     footer{
         border-radius: 10px;
         width: 1680px;

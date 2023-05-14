@@ -33,7 +33,7 @@ body {
         border-radius: 10px;
         width: 1680px;
         height: 1080px;
-        background-color: #F4D03F;
+        background-color: #145a32;
         background-image: url(../imgsData/header-background-page_1.jpg);
         background-repeat: no-repeat;
         background-blend-mode: multiply;
@@ -239,7 +239,7 @@ body {
         main{
             border-radius: 10px;
             width: 800px;
-            height: 700px;
+            height: 400px;
             margin-top: 130px;
             display: flex;
             flex-direction: column;
@@ -250,7 +250,7 @@ body {
             background-color: #f4d03f00;
             backdrop-filter: blur(10px);
             -webkit-backdrop-filter: blur(25px);
-            width: 400px;
+            width: 700px;
             height: 50px;
             border-radius: 20px;
             margin-bottom: 10px;
@@ -262,91 +262,27 @@ body {
             color: var(--textColor);
             border: solid 5px #f4d03fdc;
         }
-        .loginContent{
-            background-color: #ffffff05;
-            backdrop-filter: blur(10px);
-            -webkit-backdrop-filter: blur(25px);
-            border-radius: 20px;
-            width: 400px;
-            height: 350px;
-            display: flex;
-            flex-direction: column;
-            justify-content: space-evenly;
-            align-items: flex-start;
-            border: solid 5px #f4d03fdc;
-        }
-        .loginContent label{
-            font-family: 'bold';
-            font-size: 20px;
-            padding-left: 15px;
-            margin-left: 15px;
-            color: var(--textColor);
-        }
-        .loginContent input{
-            background-color: #ffffff05;
-            backdrop-filter: blur(10px);
-            -webkit-backdrop-filter: blur(25px);
-            border: solid 5px #f4d03fe0;
-            width: 360px;
-            height: 50px;
-            border-radius: 15px;
-            padding-left: 15px;
-            margin-left: 15px;
-            font-size: 20px;
-            font-family: 'regular';
-            color: var(--textColor);
-        }
-            .loginContent input:focus {
-                border: solid 5px #f4d03f91;
-            }
-        #submit{
+        .button button{
             background-color: rgba(255, 0, 0, 0.226);
             backdrop-filter: blur(10px);
             -webkit-backdrop-filter: blur(25px);
+            border: solid 5px #f4d03f00;
             border-radius: 30px;
-            width: 250px;
+            width: 400px;
+            height: 70px;
             font-family: 'bold';
             font-size: 20px;
-            margin-left: 75px;
             margin-top: 30px;
             color: var(--textColor);
+            padding: 15px;
         }
-        #submit:hover{
+        .button button:hover{
             background-color: rgba(255, 0, 0, 0.342);
             backdrop-filter: blur(10px);
             -webkit-backdrop-filter: blur(25px);
             border-radius: 20px;
             cursor: pointer;
         }
-
-        section{
-            background-color: #f4d03f00;
-            backdrop-filter: blur(10px);
-            -webkit-backdrop-filter: blur(25px);
-            border: solid 5px #f4d03fdc;
-            border-radius: 20px;
-
-            width: auto;
-            height: auto;
-
-            display: grid;
-            grid-template-columns: auto auto;
-            grid-template-columns: auto, auto;
-        }
-            .section-info{
-                padding: 10px 20px;
-                font-family: 'bold';
-                color: var(--textColor);
-            }
-                .section-info p a{
-                    text-decoration: none;
-                    color: var(--textColor);
-                }
-                .section-info p a:hover{
-                    text-decoration: underline;
-                }
-
-
     footer{
         border-radius: 10px;
         width: 1680px;

@@ -4,7 +4,7 @@
 
         </title>
         <meta charset="utf-8">
-        <link rel="stylesheet" href="../finalProject/styles/products.css">
+        <link rel="stylesheet" href="../finalProject/styles/loginFailed.css">
     </head>
     <body>
         <header>
@@ -72,12 +72,60 @@
                     </li>
                 </ul>
             </nav>
+            <main>
+                <div class="mainHeader">
+                    <p>
+                        ავტორიზაცია
+                    </p>
+                </div>
+                <form class="login" onsubmit="formHandler()">
+                    <div class="loginContent">
+                        <label for="user">
+                            მომხმარებელი:
+                        </label>
+                        <input type="email" id="username" name="username">
+                        <label for="password">
+                            პაროლი:
+                        </label>
+                        <input type="password" id="pass" name="password">
+                        <input type="submit" id="submit" value="შესვლა">
+
+                        <div class="failedLogin">
+                            <p>
+                                მომხმარებელი ან პაროლი არასწორია
+                            </p>
+                        </div>
+                    </div>
+                </form>
+                <p id="loginInfo"></p>
+                <section>
+                    <div class="section-info">
+                        <p>
+                            არ ხარ რეგისტრირებული?
+                        </p>
+                    </div>
+                    <div class="section-info">
+                        <p>
+                            <a href="#registration">
+                                რეგისტრაცია
+                            </a>
+                        </p>
+                    </div>
+                    <div class="section-info">
+                        <p>
+                            დაგავიწყდა მომხმარებელი ან პაროლი?
+                        </p>
+                    </div>
+                    <div class="section-info">
+                        <p>
+                            <a href="#restore">
+                                აღდგენა
+                            </a>
+                        </p>
+                    </div>
+                </section>
+            </main>
         </header>
-        <main>
-            <a href="profile.html">
-                <input type="submit" class="button" value="შეუკვეთე">
-            </a>
-        </main>
         <footer>
             <div class="topFooter">
                 <div class="topFooter-leftSide">
@@ -162,5 +210,19 @@
                 </div>
             </div>
         </footer>
+    <script>
+        function formHandler() {
+            var loginInfo = document.getElementById('loginInfo');
+            var username = document.getElementsByName('username')[0].value;
+            var password = document.getElementsByName('password')[0].value;
+            event.preventDefault();
+
+            if (username == 'admin@gamil.com' && password == 'admin1234') {
+                window.location.replace('loginSuccess.html');
+            } else {
+                window.location.replace('loginFailed.html');
+            }
+        }
+    </script>
     </body>
 </html>

@@ -78,10 +78,10 @@
                         ავტორიზაცია
                     </p>
                 </div>
-                <form class="login" action="login.html">
+                <form class="login" onsubmit="formHandler()">
                     <div class="loginContent">
                         <label for="user">
-                            ელ. ფოსტა:
+                            მომხმარებელი:
                         </label>
                         <input type="email" id="username" name="username">
                         <label for="password">
@@ -91,10 +91,32 @@
                         <input type="submit" id="submit" value="შესვლა">
                     </div>
                 </form>
+                <p id="loginInfo"></p>
                 <section>
-                    <p>
-                        არ ხარ რეგისტრირებული?
-                    </p>
+                    <div class="section-info">
+                        <p>
+                            არ ხარ რეგისტრირებული?
+                        </p>
+                    </div>
+                    <div class="section-info">
+                        <p>
+                            <a href="#registration">
+                                რეგისტრაცია
+                            </a>
+                        </p>
+                    </div>
+                    <div class="section-info">
+                        <p>
+                            დაგავიწყდა მომხმარებელი ან პაროლი?
+                        </p>
+                    </div>
+                    <div class="section-info">
+                        <p>
+                            <a href="#restore">
+                                აღდგენა
+                            </a>
+                        </p>
+                    </div>
                 </section>
             </main>
         </header>
@@ -182,5 +204,20 @@
                 </div>
             </div>
         </footer>
+    <script>
+        function formHandler() {
+            var loginInfo = document.getElementById('loginInfo');
+            var username = document.getElementsByName('username')[0].value;
+            var password = document.getElementsByName('password')[0].value;
+            event.preventDefault();
+
+            if (username == 'admin@gamil.com' && password == 'admin1234') {
+                window.location.replace('loginSuccess.html');
+            } else {
+                window.location.replace('loginFailed.html');
+            }
+        }
+    </script>
+
     </body>
 </html>
